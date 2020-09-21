@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RachhaScroll_Example' do
+  pod 'RachhaScroll', :path => '../'
+
+  target 'RachhaScroll_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
